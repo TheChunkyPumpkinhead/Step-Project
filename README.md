@@ -1,4 +1,4 @@
-# Flash Card APP
+# Flash Card App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
