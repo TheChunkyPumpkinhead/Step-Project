@@ -7,7 +7,7 @@ const messages = [
 ];
 //  add a new state variable,
 
-// then we use it in a code with JSX.
+// then use it in a code with JSX.
 
 // then update the piece of state
 
@@ -25,10 +25,11 @@ export default function App() {
   }
 
   return (
-    <div>
+    <>
       <button className="close" onClick={() => setIsOpen(!isOpen)}>
         &times;
       </button>
+
       {isOpen && (
         <div className="steps">
           <div className="numbers">
@@ -57,6 +58,6 @@ export default function App() {
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 }
