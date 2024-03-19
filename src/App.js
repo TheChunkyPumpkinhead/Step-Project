@@ -5,9 +5,16 @@ const messages = [
   "Apply for jobs 💼",
   "Invest your new income 🤑",
 ];
+//  add a new state variable,
 
+// then we use it in a code with JSX.
+
+// then update the piece of state
+
+// with event handler.
 export default function App() {
   const [step, setStep] = useState(1);
+  const [isOpen, setIsOpen] = useState(true);
 
   function handlePrevious() {
     if (step > 1) setStep(step - 1);
