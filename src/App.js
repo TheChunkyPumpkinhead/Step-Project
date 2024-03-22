@@ -37,7 +37,7 @@ function Steps() {
   }
 
   return (
-    <>
+    <div>
       <button className="close" onClick={() => setIsOpen((is) => !is)}>
         &times;
       </button>
@@ -70,6 +70,6 @@ function Steps() {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 }
