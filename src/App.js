@@ -12,7 +12,17 @@ const messages = [
 // then update the piece of state
 
 // with event handler.
+
 export default function App() {
+  return (
+    <div>
+      <Steps />
+      <Steps />
+    </div>
+  );
+}
+
+function Steps() {
   const [step, setStep] = useState(1);
   const [isOpen, setIsOpen] = useState(true);
 
